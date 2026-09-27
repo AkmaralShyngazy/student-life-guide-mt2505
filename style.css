@@ -232,3 +232,38 @@ img {
   outline: 3px solid #263c52;
   outline-offset: 3px;
 }
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 15px;
+}
+
+.calendar-item,
+.grade-item {
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #d9e2ec;
+  border-radius: 10px;
+}
+
+.grade-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+.grade-result {
+  color: #ffffff;
+  background-color: #748da6;
+}
+
+.grade-result h3 {
+  color: #ffffff;
+}
+
+.study-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
